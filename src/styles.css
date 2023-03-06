@@ -1,0 +1,62 @@
+/* QuestionContainer.css */
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* QuestionContainer styles */
+.question-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.question-title {
+  text-align: center;
+}
+
+.question-header {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.question-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.question-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.question-button:hover {
+  background-color: #0062cc;
+}
+
+@media only screen and (max-width: 600px) {
+  .question-header {
+    font-size: 20px;
+  }
+
+  .question-button {
+    font-size: 14px;
+  }
+}
